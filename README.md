@@ -4,7 +4,8 @@ Analyse du catalogue Netflix par **pays**, **types**, **genres** et **classement
 
 
 ## Démo (vidéo 30 s)
-🎬  [Voir la vidéo](Netflix-PowerBI-Dashboard/assets/demo.mp4?raw=1)
+🎬  [Voir la vidéo](assets/demo.mp4?raw=1)
+
 
 
 
