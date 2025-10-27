@@ -1,35 +1,25 @@
 <!doctype html>
 <html lang="fr">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Démo Netflix — Power BI</title>
-<style>
-  html,body{height:100%;margin:0;background:#0f0f10;color:#fff;font:16px/1.4 system-ui,Segoe UI,Roboto,Arial}
-  main{min-height:100%;display:grid;place-items:center;padding:24px}
-  .wrap{width:min(1100px,100%);text-align:center}
-  h1{font-size:clamp(20px,3vw,28px);margin:0 0 12px}
-  p{opacity:.8;margin:0 0 18px}
-  video{width:100%;height:auto;max-height:80vh;border-radius:12px;outline:0}
-  .hint{margin-top:10px;opacity:.7;font-size:14px}
-  a{color:#ff4747}
-</style>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Netflix – Power BI Demo</title>
+  <style>
+    body { margin:0; background:#111; color:#eee; font-family:system-ui,-apple-system,Segoe UI,Roboto; }
+    main { max-width: 1000px; margin: 40px auto; padding: 0 16px; }
+    h1 { font-size: 28px; margin: 0 0 16px; }
+    video { width: 100%; height: auto; outline: none; border-radius: 8px; }
+    a { color: #6cf; }
+  </style>
+</head>
 <body>
   <main>
-    <div class="wrap">
-      <h1>Démo (30 s) — Netflix Power BI Dashboard</h1>
-      <p>Lecture directe dans le navigateur. Si la vidéo ne démarre pas, <a href="https://raw.githubusercontent.com/Zac-dev618/Netflix-PowerBI-Dashboard/main/Netflix-PowerBI-Dashboard/assets/demo.mp4">ouvre le fichier vidéo</a> ou fais clic-droit ▸ « Enregistrer la vidéo ».</p>
-
-      <!-- On lit la vidéo hébergée sur raw.githubusercontent.com -->
-      <video
-        src="https://raw.githubusercontent.com/Zac-dev618/Netflix-PowerBI-Dashboard/main/Netflix-PowerBI-Dashboard/assets/demo.mp4"
-        controls
-        playsinline
-        preload="metadata"
-        poster="https://raw.githubusercontent.com/Zac-dev618/Netflix-PowerBI-Dashboard/main/Netflix-PowerBI-Dashboard/assets/Overview_1.png">
-      </video>
-
-      <div class="hint">Si ça ne charge pas immédiatement, actualise la page (Ctrl/Cmd + R).</div>
-    </div>
+    <h1>Netflix — Power BI Dashboard (demo)</h1>
+    <p>Vidéo d’aperçu (~30 s). Si la vidéo ne se lance pas, <a href="./demo.mp4">téléchargez-la</a>.</p>
+    <video controls preload="metadata">
+      <source src="./demo.mp4" type="video/mp4" />
+      Votre navigateur ne supporte pas la lecture vidéo. <a href="./demo.mp4">Télécharger</a>.
+    </video>
   </main>
 </body>
 </html>
