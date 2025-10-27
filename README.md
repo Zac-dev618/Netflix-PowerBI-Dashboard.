@@ -2,6 +2,10 @@
 
 Analyse du catalogue Netflix par **pays**, **types**, **genres** et **classements d’âge** (2008–2021) avec Power BI.
 
+## Démo (vidéo 30 s)
+🎬 [Voir la vidéo](Netflix-PowerBI-Dashboard/assets/demo.mp4)
+
+
 ## Aperçus
 <img src="Netflix-PowerBI-Dashboard/assets/Overview_1.png" width="49%"/> <img src="Netflix-PowerBI-Dashboard/assets/Overview_2.png" width="49%"/><br/>
 <img src="Netflix-PowerBI-Dashboard/assets/Overview_3.png" width="49%"/> <img src="Netflix-PowerBI-Dashboard/assets/Overview_4.png" width="49%"/>
