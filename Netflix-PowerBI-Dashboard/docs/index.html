@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Démo Netflix — Power BI</title>
+<style>
+  html,body{height:100%;margin:0;background:#0f0f10;color:#fff;font:16px/1.4 system-ui,Segoe UI,Roboto,Arial}
+  main{min-height:100%;display:grid;place-items:center;padding:24px}
+  .wrap{width:min(1100px,100%);text-align:center}
+  h1{font-size:clamp(20px,3vw,28px);margin:0 0 12px}
+  p{opacity:.8;margin:0 0 18px}
+  video{width:100%;height:auto;max-height:80vh;border-radius:12px;outline:0}
+  .hint{margin-top:10px;opacity:.7;font-size:14px}
+  a{color:#ff4747}
+</style>
+<body>
+  <main>
+    <div class="wrap">
+      <h1>Démo (30 s) — Netflix Power BI Dashboard</h1>
+      <p>Lecture directe dans le navigateur. Si la vidéo ne démarre pas, <a href="https://raw.githubusercontent.com/Zac-dev618/Netflix-PowerBI-Dashboard/main/Netflix-PowerBI-Dashboard/assets/demo.mp4">ouvre le fichier vidéo</a> ou fais clic-droit ▸ « Enregistrer la vidéo ».</p>
+
+      <!-- On lit la vidéo hébergée sur raw.githubusercontent.com -->
+      <video
+        src="https://raw.githubusercontent.com/Zac-dev618/Netflix-PowerBI-Dashboard/main/Netflix-PowerBI-Dashboard/assets/demo.mp4"
+        controls
+        playsinline
+        preload="metadata"
+        poster="https://raw.githubusercontent.com/Zac-dev618/Netflix-PowerBI-Dashboard/main/Netflix-PowerBI-Dashboard/assets/Overview_1.png">
+      </video>
+
+      <div class="hint">Si ça ne charge pas immédiatement, actualise la page (Ctrl/Cmd + R).</div>
+    </div>
+  </main>
+</body>
+</html>
